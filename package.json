@@ -1,0 +1,17 @@
+{
+  "name": "medal-2-discord",
+  "version": "0.0.1",
+  "description": "Discord Bot to Scrape the latest medal clips for a Set of users and post to discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "redis": "^4.0.2",
+    "request-promise": "^4.2.6"
+  }
+}
