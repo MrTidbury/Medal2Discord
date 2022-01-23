@@ -142,11 +142,12 @@ async function loop_users(){
     return
 }
 
-async function onPubSub(event, conext){
+async function helloPubSub(event, conext){
     console.log('[Medal2Discord Bot]    Triggered..')
     await loop_users();
     return
 }
 
-exports.onPubSub = onPubSub
+exports.helloPubSub = helloPubSub
+
   
